@@ -1,7 +1,8 @@
-package com.mysite.sbb;
+package com.mysite.sbb.Answer;
 
 import java.time.LocalDateTime;
 
+import com.mysite.sbb.Question.Question;
 import jakarta.persistence.*;
 import lombok.Getter;
 import lombok.Setter;
