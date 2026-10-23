@@ -1,6 +1,7 @@
 package com.mysite.sbb.Answer;
 
 import java.time.LocalDateTime;
+import java.util.Set;
 
 import com.mysite.sbb.Question.Question;
 import com.mysite.sbb.User.SiteUser;
@@ -28,4 +29,7 @@ public class Answer {
     private SiteUser author;
 
     private LocalDateTime modifyDate;
+
+    @ManyToMany
+    Set<SiteUser> voter;
 }
